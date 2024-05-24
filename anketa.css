@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url('./kurirska-sluzba.jpeg');
+    background-size: cover;
+}
+
+main{
+    background-color: rgb(12, 93, 200, 0.8);
+    margin: 10px;
+    min-width: 400px;
+    border-radius: 20px;
+    width: 35%;
+    padding: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    color: white;
+}
+
+main hr{
+    margin: 15px 0;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: rgb(46, 209, 98);
+    opacity: 1;
+    color: white;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+form div {
+    display: flex;
+
+}
+
+form div > *{
+    flex: 1
+}
