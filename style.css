@@ -4,6 +4,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: rgb(3,156,209);
+    background: linear-gradient(15deg, rgba(3,156,209,1) 31%, rgba(0,189,255,1) 70%);
+}
+
 h1{
     text-align: center;
     margin: 50px;
@@ -12,18 +17,43 @@ h1{
 
 .projekti{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 5rem;
 }
 
 .projekti > div{
-    height: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 35px;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+}
+
+.projekti > div > img{
+    margin: 20px 0;
+}
+
+button{
+    cursor: pointer;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgb(4, 4, 117);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(4, 4, 117);
 }
 
 #autor{
     text-align: center;
-    margin: 20px;
+    margin: 100px;
 }
